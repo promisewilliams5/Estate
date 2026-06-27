@@ -22,9 +22,9 @@ useEffect(()=>{
             <img src="logo-.svg" alt="" />
             <ul className='hidden md:flex gap-7 text-white'>
                 <a onClick={()=> setshowMobileMenu(false)} href="#Header" className='cursor-pointer hover:text-gray-400'>Home</a>
-                <a onClick={()=> setshowMobileMenu(false)} href="#Header" className='cursor-pointer hover:text-gray-400'>About</a>
-                <a onClick={()=> setshowMobileMenu(false)} href="#Header" className='cursor-pointer hover:text-gray-400'>Projects</a>
-                <a onClick={()=> setshowMobileMenu(false)} href="#Header" className='cursor-pointer hover:text-gray-400'>Testimonials</a>
+                <a onClick={()=> setshowMobileMenu(false)} href="#About" className='cursor-pointer hover:text-gray-400'>About</a>
+                <a onClick={()=> setshowMobileMenu(false)} href="#Projects" className='cursor-pointer hover:text-gray-400'>Projects</a>
+                <a onClick={()=> setshowMobileMenu(false)} href="#TestimonialsSection" className='cursor-pointer hover:text-gray-400'>Testimonials</a>
                 
             </ul>
             <button className='hidden md:block bg-white px12 py-2 rounded-full'>Sign up</button>
@@ -39,7 +39,7 @@ useEffect(()=>{
             <a href="#Header" className='px-4 py2 rounded-full inline-block'>Home</a>
             <a href="#About" className='px-4 py2 rounded-full inline-block'>About</a>
             <a href="#Projects" className='px-4 py2 rounded-full inline-block'>Projects</a>
-            <a href="#Testimonials" className='px-4 py2 rounded-full inline-block'>Testimonials</a>
+            <a href="#TestimonialsSection" className='px-4 py2 rounded-full inline-block'>Testimonials</a>
           </ul>
         </div>
       
